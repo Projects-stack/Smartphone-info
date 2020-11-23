@@ -40,4 +40,9 @@ $(document).ready(function(){
     $("#flip").click(function(){
       $("#panel").slideToggle("slow");
     });
+
+    $("#flip").hover(function(){
+        $(this).css('cursor','pointer');
+    });
   });
+
