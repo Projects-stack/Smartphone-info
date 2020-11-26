@@ -11,7 +11,7 @@ $("#InputPassword1").hover(function() {
 });
 
 $("#InputEmail1,#InputPassword1").focus(function(){
-    $(this).css("background-color","#939090");
+    $(this).css("background-color","#bedbbb");
 });
 
 $("#InputEmail1,#InputPassword1").blur(function(){
@@ -31,7 +31,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $("#social-toggle").hover(function(){
-        $(this).css('color','#939090');
+        $(this).css('color','#bedbbb');
         $(this).css('cursor','pointer');
     });
 });
